@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #0311d9;
+  color: #307cec;
 }
 
 .grid {
@@ -38,7 +38,7 @@ a:hover {
   height: 450px;
   width: 450px;
   padding: 0.2rem;
-  background-color: #0311d9;
+  background-color: #307cec;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "i1 i1 i2" "i4 i5 i2" "i4 i3 i3";
