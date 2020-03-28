@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: linear-gradient(35deg, #d9dbf1, #ffcccc);
+  background: linear-gradient(35deg, #d9dbf1, #6ab7ff);
   height: 100%;
   display: flex;
   align-items: center;
@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #d90368;
+  color: #0311d9;
 }
 
 .grid {
@@ -38,7 +38,7 @@ a:hover {
   height: 450px;
   width: 450px;
   padding: 0.2rem;
-  background-color: #d90368;
+  background-color: #0311d9;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "i1 i1 i2" "i4 i5 i2" "i4 i3 i3";
