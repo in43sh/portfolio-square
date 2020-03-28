@@ -20,7 +20,7 @@ p {
 
 h1 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 a {
@@ -76,17 +76,13 @@ a:hover {
   grid-area: i5;
 }
 
-.h1 {
-
-}
-
 @media only screen and (max-width: 450px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 
   a {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .grid {
