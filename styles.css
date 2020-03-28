@@ -10,7 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  font-size: 100%;
+  font-size: 62.5%;
   margin: 0;
 }
 
@@ -20,7 +20,7 @@ p {
 
 h1 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 a {
@@ -60,6 +60,7 @@ a:hover {
 .mat-2 {
   grid-area: i2;
 }
+
 .mat-3 {
   grid-area: i3;
   display: flex;
@@ -75,15 +76,25 @@ a:hover {
   grid-area: i5;
 }
 
+.h1 {
+
+}
+
 @media only screen and (max-width: 450px) {
+  h1 {
+    font-size: 2rem;
+  }
+
   a {
     font-size: 1.25rem;
   }
+
   .grid {
     width: 320px;
     height: 320px;
     margin: 1em;
   }
+
   .mat {
     font-size: 1rem;
     padding: 0.5rem;
